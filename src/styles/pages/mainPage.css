@@ -1,0 +1,28 @@
+.main-page {
+  text-align: center; }
+  .main-page .refresh-users-btn {
+    position: fixed;
+    right: 14px; }
+  .main-page .users-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .main-page .users-list .users-list-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 200px;
+      height: 200px;
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 4px;
+      margin: 14px 0;
+      padding: 14px;
+      animation: 750ms ease-out 0s 1 slideInFromRight; }
+      .main-page .users-list .users-list-item:hover {
+        background: rgba(255, 255, 255, 0.8); }
+      .main-page .users-list .users-list-item img {
+        width: 100px;
+        height: 100px;
+        cursor: pointer; }
+
+/*# sourceMappingURL=mainPage.css.map */

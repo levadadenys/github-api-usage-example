@@ -1,0 +1,13 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url(./theme.css);
+@import url(./pages/mainPage.css);
+@import url(./pages/userPage.css);
+body {
+  width: 100%;
+  height: 100%;
+  background-color: cornflowerblue;
+  margin: 0; }
+  body #root {
+    padding: 14px; }
+
+/*# sourceMappingURL=main.css.map */

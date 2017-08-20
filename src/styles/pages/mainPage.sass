@@ -1,0 +1,37 @@
+$users-list-item-border-radius: 4px
+$users-list-spacing: 14px
+
+.main-page
+  text-align: center
+
+  .refresh-users-btn
+    position: fixed
+    right: $users-list-spacing
+
+  .users-list
+    display: flex
+    flex-direction: column
+    align-items: center
+
+    .users-list-item
+      display: flex
+      flex-direction: column
+      justify-content: center
+      width: 200px
+      height: 200px
+      background-color: rgba(255, 255, 255, 0.5)
+      border-radius: $users-list-item-border-radius
+      margin: $users-list-spacing 0
+      padding: $users-list-spacing
+      animation: 750ms ease-out 0s 1 slideInFromRight
+
+
+      &:hover
+        background: rgba(255, 255, 255, 0.8)
+
+      img
+        width: 100px
+        height: 100px
+        cursor: pointer
+
+
