@@ -1,3 +1,5 @@
+# github-api-usage-example
+
 How to use: just run in terminal ``npm run start`` from the project's folder.
 
 
